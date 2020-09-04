@@ -109,6 +109,20 @@ p {
 .header-contacts .item:not(:last-child) {
   margin-right: 50px;
 }
+.header-contacts a {
+  display: flex;
+  flex-direction: row;
+}
+.header-contacts svg {
+  display: inline-block;
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.header-contacts .link:hover svg,
+.header-contacts .link:focus svg {
+  fill: var(--main-accent);
+}
 
 /* футер */
 
@@ -152,4 +166,64 @@ p {
 .address-item:focus {
   color: var(--main-accent);
   text-decoration: underline;
+}
+.adress-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+.social-links .link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  fill: #afb1b8;
+}
+
+.list-link {
+  margin-right: 10px;
+  flex-basis: calc((100% - 3 * 10px) / 4);
+}
+
+.list-link:last-child {
+  margin-right: 0px;
+}
+
+.link-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.join-us {
+  padding-top: 20px;
+}
+
+.social-join-us h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--pure-white-color);
+  margin-top: 15px;
+}
+
+.social-links .join {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  fill: #ffffff;
+}
+
+.social-links .join {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.social-links .join:hover,
+.social-links .join:focus {
+  background-color: var(--main-accent);
+  border-radius: 50%;
 }

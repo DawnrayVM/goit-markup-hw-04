@@ -26,6 +26,7 @@ body {
   border-style: none;
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .btn:hover,
@@ -46,6 +47,15 @@ body {
 .grid-container {
   margin-top: 34px;
   margin-bottom: 94px;
+}
+
+.grid-item-container a {
+  text-decoration: none;
+}
+
+.grid-item-container:hover,
+.grid-item-container:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card-grid {
