@@ -116,6 +116,7 @@ img {
 .header-contacts a {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .header-contacts svg {
   display: inline-block;
